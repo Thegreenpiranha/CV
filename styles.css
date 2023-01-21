@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+      background: fixed;
+      background-color: rgb(226, 230, 49);
+      background-position: center;
+      background-size: cover;
+  }
+
+
+.h1 {
+    color:  rgb(105, 39, 39);
+    background-color: rgb(159, 90, 224);
+    font-size: 45px;
+    text-decoration: none;
+    font-family:impact;
+    text-align: center;
+}
+
+.font {
+    /*color: cornflowerblue;*/
+    font-family: impact;
+    
+}
+
+.h2 {
+    color:  rgb(105, 39, 39);
+    background-color: rgb(159, 90, 224);
+    font-size: 35px;
+    text-decoration: none;
+    font-family:impact;
+    text-align: center;
+}
+
+.img {
+    width:auto;
+    height:auto;
+    margin-right: 370px;
+}
+ 
+
+.list{
+    list-style-type: none;
+    list-style: none ;
+}
+
+.parent{
+    position: relative;
+    font-size: xx-large;
+    font-stretch: expanded;
+    word-spacing: 0.25cm;
+    flex-direction: row;
+    display:grid;
+    /*grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr */
+    width:97%;
+    height: 180px;
+    /*overflow:auto;*/
+    border: 10px solid rgb(12, 12, 12);
+    /*padding: 10px */
+    text-align: left;
+    
+}
+
+.text {
+     text-decoration: solid;
+}
+
+.box1 {
+    width: 390px;
+    height: 23px;
+    border: solid black;
+    margin: 0 auto;
+    
+}
+
+.box2 {
+    border: dashed black;
+    /*padding-right: 0px;*/
+    /*padding-left: 0px;*/
+    width: 553px; 
+    margin-left: 370px;
+    margin-right: 20px;
+    border-width: 10px;
+    /*border-left: 20px;
+    border-right: 20px;*/
+
+
+}
+
+.box3 {
+    border: dashed black;
+    /*padding-right: 0px;*/
+    /*padding-left: 0px;*/
+    width: 553px; 
+    margin-left: 50px;
+    margin-right: 20px;
+    border-width: 10px;
+    /*border-left: 20px;
+    border-right: 20px;*/
+}
+
+.paragraph::first-letter {
+    font-size:xx-large;
+    background-color: rgb(159, 90, 224) ;
+}
+
+.font2 {
+    font-family: impact;
+    font-size: larger;
+}
+
+/*add some pictures*/
