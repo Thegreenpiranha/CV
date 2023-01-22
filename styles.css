@@ -1,9 +1,9 @@
 body {
     text-align: center;
       background: fixed;
-      background-color: rgb(226, 230, 49);
+      background-color: rgb(65, 136, 218);
       background-position: center;
-      background-size: cover;
+      background-size:contain;
   }
 
 
@@ -14,6 +14,9 @@ body {
     text-decoration: none;
     font-family:impact;
     text-align: center;
+    -webkit-box-shadow: 5px 5px 20px 30px rgb(105, 39, 39); 
+    box-shadow: 5px 5px 20px 30px  rgb(105, 39, 39)
+    
 }
 
 .font {
@@ -32,9 +35,13 @@ body {
 }
 
 .img {
-    width:auto;
-    height:auto;
-    margin-right: 370px;
+    width:500px;
+    height:500px;
+    -webkit-box-shadow: 5px 5px 20px 30px rgb(105, 39, 39); 
+    box-shadow: 5px 5px 20px 30px  rgb(105, 39, 39);
+    margin-top: 24px;
+    
+    
 }
  
 
@@ -48,7 +55,7 @@ body {
     font-size: xx-large;
     font-stretch: expanded;
     word-spacing: 0.25cm;
-    flex-direction: row;
+    flex-direction:column;
     display:grid;
     /*grid-template-columns: repeat(3, 1fr);
     /* grid-template-columns: 1fr 1fr 1fr */
@@ -57,7 +64,11 @@ body {
     /*overflow:auto;*/
     border: 10px solid rgb(12, 12, 12);
     /*padding: 10px */
-    text-align: left;
+    text-align: center;
+    margin-bottom: 60px;
+    -webkit-box-shadow: 5px 5px 20px 30px rgb(105, 39, 39); 
+box-shadow: 5px 5px 20px 30px  rgb(105, 39, 39)
+    
     
 }
 
@@ -81,8 +92,12 @@ body {
     margin-left: 370px;
     margin-right: 20px;
     border-width: 10px;
+    margin-top: 36px;
+    margin-bottom: 36px;
     /*border-left: 20px;
     border-right: 20px;*/
+    -webkit-box-shadow: 5px 5px 20px 30px rgb(105, 39, 39); 
+box-shadow: 5px 5px 20px 30px  rgb(105, 39, 39)
 
 
 }
@@ -97,16 +112,24 @@ body {
     border-width: 10px;
     /*border-left: 20px;
     border-right: 20px;*/
+    -webkit-box-shadow: 5px 5px 20px 30px rgb(105, 39, 39); 
+box-shadow: 5px 5px 20px 30px  rgb(105, 39, 39);
+
 }
 
 .paragraph::first-letter {
     font-size:xx-large;
-    background-color: rgb(159, 90, 224) ;
+    background-color: rgb(159, 90, 224);
+    -webkit-box-shadow: 5px 5px 20px 30px rgb(105, 39, 39); 
+box-shadow: 5px 5px 20px 30px  rgb(105, 39, 39);
+color:  rgb(105, 39, 39)
+
 }
 
 .font2 {
     font-family: impact;
     font-size: larger;
 }
+
 
 /*add some pictures*/
